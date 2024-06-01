@@ -1,0 +1,39 @@
+.Login{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+}
+.LoginInputs{
+    /* background-color: gray; */
+    height: 100vh;
+    padding: 20px;
+}
+.LoginLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+    height: 30%;
+}
+.LoginInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    /* background-color: purple; */
+    flex-direction: column;
+}
+.LoginSubmit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    height: 30%;
+}
+@media only screen and (max-width: 786px) {
+    .LoginImage {
+      display: none;
+    }
+  }
